@@ -50,7 +50,7 @@
             text-decoration: underline;
         }
     </style>
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <header>
@@ -84,6 +84,18 @@
     <section id="social-life">
         <h2 style="color: #9370db;">Social Life</h2>
         <p>Active in tech communities, attending meetups, and participating in hackathons to connect with fellow developers and stay inspired.</p>
+    </section>
+
+    <section id="dom-practical">
+        <h2 style="color: #4169e1;">DOM Practical Tasks</h2>
+        <div style="margin-bottom: 16px;">
+            <p id="dynamic-paragraph">This text will change when you click the button.</p>
+            <button id="change-text-btn" type="button">Change Paragraph Text</button>
+        </div>
+        <div>
+            <button id="add-item-btn" type="button">Add List Item</button>
+            <ul id="dynamic-list" style="margin-top: 10px;"></ul>
+        </div>
     </section>
     
     <footer>
